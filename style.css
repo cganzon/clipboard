@@ -22,6 +22,87 @@ html {
 
 body {
     font-size: 1.8rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-image: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+  /* ////// */
+ /* Header */
+/* ////// */
+.header {
+    width: 82.93%;
+    margin: 0 auto;
+    margin-top: 12.3rem;
+    margin-bottom: 16rem;
+}
+
+.header-logo {
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+}
+
+.header-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4rem;
+    letter-spacing: -0.052rem;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 1.6rem;
+}
+
+.header-paragraph {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.012rem;
+    color: var(--grayish-blue);
+    margin-bottom: 4.8rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    max-width: 31.1rem;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: 0.05rem;
+    color: #FFF;
+    border-radius: 2.8rem;
+    padding: 1.3rem 0;
+    width: 100%;
+}
+
+.btn-ios {
+    background-color: var(--strong-cyan);
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    margin-bottom: 2.4rem;
+}
+
+.btn-mac {
+    background-color: var(--light-blue);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
 }
 
 .attribution { 
