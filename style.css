@@ -300,3 +300,34 @@ ul li {
     color: var(--grayish-blue);
     margin-bottom: 5.6rem;
 }
+
+  /* ///////////////// */
+ /* Companies section */
+/* ///////////////// */
+.companies {
+    margin-bottom: 17rem;
+}
+
+.company {
+    margin: 0 auto;
+    margin-bottom: 6.3rem;
+}
+.google-logo {
+    width: 13.9rem;
+}
+
+.ibm-logo {
+    width: 12.1rem;
+}
+
+.microsoft-logo {
+    width: 13.5rem;
+}
+
+.hp-logo {
+    width: 11.3rem;
+}
+
+.vector-graphics-logo {
+    width: 10.5rem;
+}
