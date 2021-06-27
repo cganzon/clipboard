@@ -49,8 +49,8 @@ ul li {
 .header {
     width: 82.93%;
     margin: 0 auto;
-    margin-top: 12.3rem;
-    margin-bottom: 16rem;
+    padding-top: 12.3rem;
+    padding-bottom: 16rem;
 }
 
 .header-logo {
@@ -97,12 +97,24 @@ ul li {
 .btn-ios {
     background-color: var(--strong-cyan);
     box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    transition: transform 0.15s ease, background-color 0.15s ease;
     margin-bottom: 2.4rem;
+}
+
+.btn-ios:hover {
+    transform: translateY(-3px) scale(1.02);
+    background-color: hsla(171, 66%, 44%, 0.85);
 }
 
 .btn-mac {
     background-color: var(--light-blue);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.btn-mac:hover {
+    transform: translateY(-3px) scale(1.02);
+    background-color: hsla(233, 90%, 69%, 0.85);
 }
 
 .attribution { 
@@ -112,4 +124,46 @@ ul li {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('./images/bg-header-desktop.png');
+    }
+
+    .header {
+        width: 92%;
+        padding-top: 12.8rem;
+        padding-bottom: 15rem;
+    }
+
+    .header-logo {
+        margin-bottom: 5.6rem;
+    }
+
+    .header-title {
+        font-size: 4.6rem;
+        line-height: 5.75rem;
+        letter-spacing: -0.075rem;
+    }
+
+    .header-paragraph {
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.015rem;
+        max-width: 58ch;
+        margin: 0 auto;
+        margin-bottom: 4.8rem;
+    }
+
+    .btn-container {
+        flex-direction: row;
+        align-items: center;
+        max-width: 47rem;
+        gap: 1.6rem;
+    }
+
+    .btn-ios {
+        margin-bottom: 0;
+    }
 }
