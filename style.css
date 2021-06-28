@@ -465,6 +465,36 @@ ul li {
     .access-image {
         max-width: 90.5rem;
     }
+
+    /* Workflow section */
+    .workflow {
+        width: 92%;
+    }
+    .workflow-title {
+        margin-bottom: 1.9rem;
+    }
+
+    .workflow-paragraph {
+        margin-bottom: 7.2rem;
+    }
+
+    .workflow-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        max-width: 112rem;
+        margin: 0 auto;
+    }
+
+    .info-container:nth-of-type(2),
+    .info-container:nth-of-type(3) {
+        margin-top: 0.4rem;
+    }
+
+    .text-snippets-image,
+    .sneak-preview-image {
+        margin-bottom: 4.4rem;
+    }
 }
 
 @media (min-width: 1025px) {
