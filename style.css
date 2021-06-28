@@ -469,6 +469,7 @@ ul li {
     /* Workflow section */
     .workflow {
         width: 92%;
+        margin-bottom: 10.2rem;
     }
     .workflow-title {
         margin-bottom: 1.9rem;
@@ -495,9 +496,24 @@ ul li {
     .sneak-preview-image {
         margin-bottom: 4.4rem;
     }
+
+    /* Companies section */
+    .companies {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        max-width: 121rem;
+        margin: 0 auto;
+        margin-bottom: 15.6rem;
+    }
+
+    .company {
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 1025px) {
+    /* Snippets section */
     .snippets {
         max-width: 97.7rem;
     }
@@ -508,6 +524,27 @@ ul li {
 
     .snippets-info {
         margin-left: 7rem;
+    }
+
+    /* Companies section */
+    .google-logo {
+        width: 16.5rem;
+    }
+
+    .ibm-logo {
+        width: 14rem;
+    }
+    
+    .microsoft-logo {
+        width: 16rem;
+    }
+
+    .hp-logo {
+        width: 13.4rem;
+    }
+
+    .vector-graphics-logo {
+        width: 12.5rem;
     }
 }
 
