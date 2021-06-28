@@ -144,47 +144,6 @@ ul li {
     background-color: hsla(233, 90%, 69%, 0.85);
 }
 
-@media (min-width: 768px) {
-    body {
-        background-image: url('./images/bg-header-desktop.png');
-    }
-
-    .header {
-        width: 92%;
-        padding-top: 12.8rem;
-        padding-bottom: 15rem;
-    }
-
-    .header-logo {
-        margin-bottom: 5.6rem;
-    }
-
-    .header-title {
-        font-size: 4.6rem;
-        line-height: 5.75rem;
-        letter-spacing: -0.075rem;
-    }
-
-    .header-paragraph {
-        font-size: 2rem;
-        line-height: 3rem;
-        letter-spacing: 0.015rem;
-        max-width: 58ch;
-        margin: 0 auto;
-        margin-bottom: 4.8rem;
-    }
-
-    .btn-container {
-        flex-direction: row;
-        align-items: center;
-        max-width: 47rem;
-        gap: 1.6rem;
-    }
-
-    .btn-ios {
-        margin-bottom: 0;
-    }
-}
 
   /* //////////////// */
  /* Snippets section */
@@ -389,4 +348,134 @@ ul li {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+  /* ///////////// */
+ /* Media queries */
+/* ///////////// */
+@media (min-width: 768px) {
+    body {
+        background-image: url('./images/bg-header-desktop.png');
+    }
+
+    /* Typography */
+    .title {
+        font-size: 3.6rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.059rem;
+    }
+
+    .paragraph {
+        line-height: 3rem;
+    }
+
+    .snippets-paragraph,
+    .access-paragraph,
+    .workflow-paragraph {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        letter-spacing: 0.014px;
+    }
+
+    /* Header */
+    .header {
+        width: 92%;
+        padding-top: 12.8rem;
+        padding-bottom: 15rem;
+    }
+
+    .header-logo {
+        margin-bottom: 5.6rem;
+    }
+
+    .header-title {
+        font-size: 4.6rem;
+        line-height: 5.75rem;
+        letter-spacing: -0.075rem;
+    }
+
+    .header-paragraph {
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.015rem;
+        max-width: 58ch;
+        margin: 0 auto;
+        margin-bottom: 4.8rem;
+    }
+
+    .btn-container {
+        flex-direction: row;
+        align-items: center;
+        max-width: 47rem;
+        gap: 1.6rem;
+    }
+
+    .btn-ios {
+        margin-bottom: 0;
+    }
+
+    /* Snippets section */
+    .snippets {
+        width: 95%;
+        max-width: 79.7rem;
+        margin-bottom: 15rem;
+    }
+
+    .snippets-title {
+        margin-bottom: 1.9rem;
+    }
+
+    .snippets-paragraph {
+        max-width: 62ch;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+    }
+
+    .snippets-container {
+        display: flex;
+        align-items: center;
+        /* transform: translateX(-50rem); */
+    }
+
+    .snippets-image {
+        margin-bottom: 0;
+        width: 75.2rem;
+        margin-left: -350px;
+    }
+
+    .snippets-info {
+        text-align: left;
+        max-width: 35.8rem;
+        margin-left: 3rem;
+        margin-top: 2.3rem;
+    }
+
+    .snippets-info-subtitle {
+        margin-bottom: 0.8rem;
+    }
+
+    .snippets-info-paragraph {
+        margin-bottom: 5.6rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .snippets {
+        max-width: 97.7rem;
+    }
+    
+    .snippets-image {
+        margin-left: -262px;
+    }
+
+    .snippets-info {
+        margin-left: 7rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    .snippets-info {
+        margin-left: 11rem;
+    }
 }
