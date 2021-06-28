@@ -346,7 +346,13 @@ ul li {
     transition: color 0.12s ease;
 }
 
-.footer-link:hover {
+.footer-link:focus,
+.social-link:focus {
+    outline: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
     color: var(--strong-cyan);
 }
 
@@ -362,7 +368,8 @@ ul li {
     transition: transform 0.15s ease;
 }
 
-.social-link:hover svg {
+.social-link:hover svg,
+.social-link:focus svg {
     transform: scale(1.1);
 }
 
@@ -370,7 +377,8 @@ ul li {
     transition: fill 0.15s ease;
 }
 
-.social-link:hover path {
+.social-link:hover path,
+.social-link:focus path {
     fill: var(--strong-cyan);
 }
 
