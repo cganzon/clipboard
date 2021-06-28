@@ -341,16 +341,6 @@ ul li {
     fill: var(--strong-cyan);
 }
 
-.attribution { 
-    font-size: 11px;
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
-
   /* ///////////// */
  /* Media queries */
 /* ///////////// */
@@ -435,7 +425,6 @@ ul li {
     .snippets-container {
         display: flex;
         align-items: center;
-        /* transform: translateX(-50rem); */
     }
 
     .snippets-image {
@@ -458,6 +447,24 @@ ul li {
     .snippets-info-paragraph {
         margin-bottom: 5.6rem;
     }
+
+    /* Access section */
+    .access {
+        margin-bottom: 7.1rem;
+    }
+    .access-title {
+        margin-bottom: 1.9rem;
+    }
+
+    .access-paragraph {
+        max-width: 63ch;
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+
+    .access-image {
+        max-width: 90.5rem;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -478,4 +485,13 @@ ul li {
     .snippets-info {
         margin-left: 11rem;
     }
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
