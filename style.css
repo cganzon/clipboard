@@ -282,7 +282,7 @@ ul li {
 /* Footer */
 /* ////// */
 .footer {
-    background-color: hsla(201, 11%, 66%, 0.15);
+    background-color: hsl(220, 18%, 97%);
     padding: 5.2rem 0;
 }
 
