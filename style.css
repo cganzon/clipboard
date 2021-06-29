@@ -578,6 +578,10 @@ ul li {
     .attribution a { 
         color: var(--light-blue);
     }
+
+    .attribution a:hover {
+        text-decoration: underline;
+    }
 }
 
 @media (min-width: 1025px) {
