@@ -5,7 +5,7 @@
     --strong-cyan: hsl(171, 66%, 44%);
     --light-blue: hsl(233, 100%, 69%);
     --dark-grayish-blue: hsl(210, 10%, 33%);
-    --grayish-blue: #9fabb2;
+    --grayish-blue: hsl(201, 11%, 66%);
 }
 
 *,
@@ -282,7 +282,7 @@ ul li {
 /* Footer */
 /* ////// */
 .footer {
-    background-color: hsla(201, 11%, 66%, 0.12);
+    background-color: hsla(201, 11%, 66%, 0.15);
     padding: 5.2rem 0;
 }
 
